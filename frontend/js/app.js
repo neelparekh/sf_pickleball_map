@@ -2,8 +2,8 @@
  * Main application logic for SF Pickleball Courts Finder
  */
 
-// API Configuration
-const API_BASE_URL = 'http://localhost:5000/api';
+// Data Configuration - Use relative paths for static JSON files
+const DATA_BASE_URL = 'data';
 
 // Application State
 let allCourts = [];
@@ -43,11 +43,11 @@ async function init() {
 }
 
 /**
- * Load all courts from the API
+ * Load all courts from static JSON file
  */
 async function loadCourts() {
     try {
-        const response = await fetch(`${API_BASE_URL}/courts`);
+        const response = await fetch(`${DATA_BASE_URL}/courts.json`);
         const data = await response.json();
         
         if (data.success) {
@@ -64,11 +64,11 @@ async function loadCourts() {
 }
 
 /**
- * Load neighborhoods from the API
+ * Load neighborhoods from static JSON file
  */
 async function loadNeighborhoods() {
     try {
-        const response = await fetch(`${API_BASE_URL}/neighborhoods`);
+        const response = await fetch(`${DATA_BASE_URL}/neighborhoods.json`);
         const data = await response.json();
         
         if (data.success) {

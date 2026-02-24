@@ -2,6 +2,8 @@
 
 A web application to discover and visualize pickleball playing opportunities in San Francisco.
 
+🌐 **[View Live Site](https://your-username.github.io/pickleball/)** *(Update after deployment)*
+
 ## Features
 
 - 🗺️ **Interactive Map**: Browse all SF pickleball courts on an interactive Leaflet map
@@ -13,7 +15,7 @@ A web application to discover and visualize pickleball playing opportunities in 
   - Number of courts
   - Whether nets are provided
   - Amenities and availability
-- 🏓 **Reservation Information** *(NEW)*: Access booking details for each court:
+- 🏓 **Reservation Information**: Access booking details for each court:
   - Operating hours
   - Pricing information
   - Direct links to SF Rec & Parks reservation system
@@ -25,117 +27,113 @@ Court data is sourced from the [SF Recreation and Parks Department](https://sfre
 
 ## Tech Stack
 
-**Backend:**
-- Python 3.11
-- Flask (REST API)
-- Flask-CORS
-- JSON data storage
-
 **Frontend:**
 - HTML5, CSS3, JavaScript (Vanilla)
 - Leaflet.js for interactive mapping
 - OpenStreetMap tiles
+- Static JSON data files
 
-**Environment Management:**
-- Pixi for Python environment and dependency management
+**Data Management:**
+- Python 3.11 (for data export)
+- Flask models (for data structure)
 
-## Installation
+**Deployment:**
+- GitHub Pages (static hosting)
+- GitHub Actions (automated deployment)
+
+## Deployment
+
+This site is deployed as a **static site** on GitHub Pages. All interactive features (search, filtering, map) work client-side.
+
+### Automatic Deployment
+
+Pushing to the `main` branch automatically triggers deployment via GitHub Actions:
+1. Exports court data to JSON files
+2. Deploys frontend to GitHub Pages
+3. Site updates within a few minutes
+
+### Manual Build (Optional)
+
+To build locally before pushing:
+
+```bash
+./build.sh
+```
+
+This exports fresh data to `frontend/data/` directory.
+
+## Development
 
 ### Prerequisites
 - Python 3.11+
-- [Pixi](https://prefix.dev/docs/pixi/overview) for environment management
+- [Pixi](https://prefix.dev/docs/pixi/overview) (optional, for environment management)
 
 ### Setup
 
-1. Clone or navigate to the repository:
+1. Clone the repository:
 ```bash
-cd /path/to/pickleball
+git clone https://github.com/your-username/pickleball.git
+cd pickleball
 ```
 
-2. Install dependencies using Pixi (already configured):
+2. Install dependencies:
 ```bash
 pixi install
+# OR
+pip install flask flask-cors
 ```
 
-3. Populate the courts data:
+3. Export court data (if needed):
 ```bash
 cd backend
-pixi run python populate_data.py
+python export_static.py
 ```
 
-## Running the Application
+### Running Locally
 
-### Quick Start (Easiest Method)
-
-Use the provided startup script:
-
-```bash
-./start.sh
-```
-
-This will start both backend and frontend servers automatically.
-
-### Manual Start
-
-#### 1. Start the Flask API Server
-
-```bash
-cd backend
-pixi run python app.py
-```
-
-The API will be available at `http://localhost:5000/api/*`
-
-**Note**: The root URL `http://localhost:5000/` will show a 404 error - this is normal! The API endpoints are under `/api/`
-
-### API Endpoints
-
-- `GET /api/courts` - Get all courts (supports query params: `search`, `neighborhood`, `nets_provided`)
-- `GET /api/courts/<id>` - Get specific court details
-- `GET /api/neighborhoods` - Get list of neighborhoods
-- `GET /api/stats` - Get statistics about courts
-- `GET /api/health` - Health check endpoint
-
-#### 2. Start the Frontend
-
-Serve the frontend with a simple HTTP server:
+Serve the frontend with any HTTP server:
 
 ```bash
 cd frontend
 python3 -m http.server 8000
 ```
 
-Then open your browser to: **http://localhost:8000/**
+Then open: **http://localhost:8000/**
 
-**Important**: 
-- Make sure the Flask API is running on port 5000 before opening the frontend
-- Use `http://localhost:8000/` to view the app (not port 5000)
-- The backend API endpoints are at `http://localhost:5000/api/*`
-
-### Troubleshooting
-
-If you encounter issues, see [TROUBLESHOOTING.md](TROUBLESHOOTING.md) for common problems and solutions.
+### Adding New Courts
+```bash
+cd backend
+python populate_data.py  # or: pixi run python populate_data.py
+python export_static.py   # Export to JSON
+```
 
 ## Project Structure
 
 ```
 pickleball/
+├── .github/
+│   └── workflows/
+│       └── deploy.yml      # GitHub Actions deployment workflow
 ├── backend/
-│   ├── app.py              # Flask REST API
+│   ├── app.py              # Flask REST API (legacy, not used in deployment)
 │   ├── models.py           # Data models for courts
 │   ├── populate_data.py    # Script to populate court data
-│   ├── scraper.py          # Web scraper (for future use)
+│   ├── export_static.py    # Export data to static JSON files
 │   ├── geocode.py          # Geocoding utilities
-│   ├── requirements.txt    # Python dependencies
 │   └── data/
 │       └── courts.json     # Court data storage
 ├── frontend/
 │   ├── index.html          # Main HTML page
 │   ├── css/
 │   │   └── styles.css      # Application styles
-│   └── js/
-│       ├── app.js          # Main application logic
-│       └── map.js          # Leaflet map integration
+│   ├── js/
+│   │   ├── app.js          # Main application logic
+│   │   └── map.js          # Leaflet map integration
+│   └── data/               # Generated static data files
+│       ├── courts.json     # Exported court data
+│       ├── neighborhoods.json
+│       └── stats.json
+├── build.sh                # Build script for local testing
 ├── pyproject.toml          # Pixi/Python project configuration
 └── README.md               # This file
 ```
@@ -161,10 +159,10 @@ Each court includes:
 - `num_courts`: Number of pickleball courts
 - `nets_provided`: Boolean indicating if nets are provided
 - `amenities`: List of available amenities
-- `hours_of_operation`: Operating hours *(NEW)*
-- `pricing`: Cost information *(NEW)*
-- `reservation_url`: Link to online booking system *(NEW)*
-- `permit_required`: Whether permits are needed for tournaments *(NEW)*
+- `hours_of_operation`: Operating hours
+- `pricing`: Cost information
+- `reservation_url`: Link to online booking system
+- `permit_required`: Whether permits are needed for tournaments
 
 **Note**: Reservation data is manually curated and may require periodic updates. Last updated: February 2026.
 
@@ -185,14 +183,55 @@ Each court includes:
 
 ### Adding New Courts
 
-Edit `backend/populate_data.py` and add new court data to the `courts_data` list, then run:
+1. Edit `backend/populate_data.py` and add court data to `courts_data` list
+2. Run the populate script:
+```bash
+cd backend
+python populate_data.py
+```
+3. Export to JSON:
+```bash
+python export_static.py
+```
+4. Commit and push to deploy
+
+### Updating Court Data
+
+When court information changes:
+1. Update `backend/data/courts.json` manually, OR
+2. Update `backend/populate_data.py` and re-run it
+3. Run `./build.sh` or `python backend/export_static.py`
+4. Commit and push changes
+
+## GitHub Pages Configuration
+
+### Initial Setup
+
+1. Go to repository Settings > Pages
+2. Set Source to "GitHub Actions"
+3. Push to main branch to trigger first deployment
+4. Site will be live at `https://your-username.github.io/pickleball/`
+
+### Custom Domain (Optional)
+
+1. In repository Settings > Pages, add your custom domain
+2. Configure DNS records with your domain provider
+3. Enable "Enforce HTTPS"
+
+## Legacy Flask API (Optional)
+
+The repository still includes the Flask backend API for local development if needed:
 
 ```bash
 cd backend
-pixi run python populate_data.py
+pixi run python app.py
 ```
 
-### Refreshing Geocoding
+API endpoints available at `http://localhost:5000/api/*` (see old README for details).
+
+**Note**: The deployed GitHub Pages site does not use the Flask API - it's fully static.
+
+## Usage
 
 If you need to geocode addresses (requires fixing SSL certificate issues):
 

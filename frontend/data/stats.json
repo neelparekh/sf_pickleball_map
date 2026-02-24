@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "stats": {
+    "total_locations": 17,
+    "total_courts": 76,
+    "nets_provided": 12,
+    "neighborhoods": 15
+  }
+}

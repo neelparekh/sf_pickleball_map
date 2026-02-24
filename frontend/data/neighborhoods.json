@@ -1,0 +1,20 @@
+{
+  "success": true,
+  "neighborhoods": [
+    "Bernal Heights",
+    "Diamond Heights",
+    "Excelsior",
+    "Golden Gate Park",
+    "Haight",
+    "Marina",
+    "Noe Valley",
+    "Pacific Heights",
+    "Parkside",
+    "Potrero Hill",
+    "Presidio",
+    "Richmond",
+    "SoMa",
+    "Sunset",
+    "Western Addition"
+  ]
+}
