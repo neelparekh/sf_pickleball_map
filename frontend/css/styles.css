@@ -276,6 +276,112 @@ body {
     margin-top: 0.5rem;
 }
 
+/* Reservation Info Section */
+.reservation-section {
+    background: #f0f7f4;
+    border: 2px solid #4a7c59;
+    border-radius: 8px;
+    padding: 1.25rem;
+    margin-top: 1.5rem;
+}
+
+.reservation-section h3 {
+    font-size: 1.25rem;
+    color: #4a7c59;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.reservation-info {
+    background: white;
+    padding: 1rem;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+}
+
+.reservation-row {
+    margin-bottom: 0.75rem;
+    line-height: 1.6;
+}
+
+.reservation-row:last-child {
+    margin-bottom: 0;
+}
+
+.reservation-row strong {
+    color: #333;
+    display: block;
+    margin-bottom: 0.25rem;
+    font-size: 0.9rem;
+}
+
+.reservation-row span {
+    color: #555;
+    font-size: 0.95rem;
+}
+
+.reserve-btn {
+    display: block;
+    width: 100%;
+    padding: 0.875rem 1.5rem;
+    background: linear-gradient(135deg, #4a7c59 0%, #68a357 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(74, 124, 89, 0.2);
+}
+
+.reserve-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(74, 124, 89, 0.3);
+    background: linear-gradient(135deg, #3e6b4d 0%, #5a904b 100%);
+}
+
+.reserve-btn:active {
+    transform: translateY(0);
+}
+
+.reserve-btn.disabled {
+    background: #ccc;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+.reserve-btn.disabled:hover {
+    transform: none;
+    box-shadow: none;
+}
+
+.permit-badge {
+    display: inline-block;
+    padding: 0.3rem 0.75rem;
+    background: #fff3e0;
+    color: #e65100;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+}
+
+.free-badge {
+    display: inline-block;
+    padding: 0.3rem 0.75rem;
+    background: #e8f5e9;
+    color: #2e7d32;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .header h1 {

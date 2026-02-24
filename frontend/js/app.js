@@ -194,10 +194,61 @@ function showCourtDetails(court) {
                 </div>
             ` : ''}
         </div>
+        
+        ${getReservationSection(court)}
     `;
     
     courtDetailsEl.innerHTML = html;
     sidebar.classList.add('active');
+}
+
+/**
+ * Generate reservation section HTML
+ */
+function getReservationSection(court) {
+    const hasReservationInfo = court.hours_of_operation || court.pricing || court.reservation_url;
+    
+    if (!hasReservationInfo) {
+        return '';
+    }
+    
+    const hasReservationUrl = court.reservation_url && court.reservation_url.trim() !== '';
+    
+    return `
+        <div class="reservation-section">
+            <h3>🏓 Reservation Info</h3>
+            <div class="reservation-info">
+                ${court.hours_of_operation ? `
+                    <div class="reservation-row">
+                        <strong>⏰ Hours</strong>
+                        <span>${court.hours_of_operation}</span>
+                    </div>
+                ` : ''}
+                ${court.pricing ? `
+                    <div class="reservation-row">
+                        <strong>💰 Pricing</strong>
+                        <span>${court.pricing}</span>
+                        ${court.pricing.toLowerCase().includes('free') ? 
+                            '<div class="free-badge">Free to Play</div>' : ''}
+                        ${court.permit_required ? 
+                            '<div class="permit-badge">Permit Required for Tournaments</div>' : ''}
+                    </div>
+                ` : ''}
+            </div>
+            ${hasReservationUrl ? `
+                <a href="${court.reservation_url}" 
+                   target="_blank" 
+                   rel="noopener noreferrer" 
+                   class="reserve-btn">
+                    Check Availability & Reserve →
+                </a>
+            ` : `
+                <button class="reserve-btn disabled" disabled>
+                    No Online Reservations - Walk-in Only
+                </button>
+            `}
+        </div>
+    `;
 }
 
 /**

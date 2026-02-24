@@ -19,7 +19,11 @@ class Court:
         hours: str = "",
         num_courts: int = 0,
         nets_provided: bool = False,
-        amenities: List[str] = None
+        amenities: List[str] = None,
+        hours_of_operation: str = "",
+        pricing: str = "",
+        reservation_url: str = "",
+        permit_required: bool = False
     ):
         self.id = id
         self.name = name
@@ -31,6 +35,10 @@ class Court:
         self.num_courts = num_courts
         self.nets_provided = nets_provided
         self.amenities = amenities or []
+        self.hours_of_operation = hours_of_operation
+        self.pricing = pricing
+        self.reservation_url = reservation_url
+        self.permit_required = permit_required
     
     def to_dict(self) -> Dict:
         """Convert court to dictionary."""
@@ -44,7 +52,11 @@ class Court:
             'hours': self.hours,
             'num_courts': self.num_courts,
             'nets_provided': self.nets_provided,
-            'amenities': self.amenities
+            'amenities': self.amenities,
+            'hours_of_operation': self.hours_of_operation,
+            'pricing': self.pricing,
+            'reservation_url': self.reservation_url,
+            'permit_required': self.permit_required
         }
     
     @classmethod

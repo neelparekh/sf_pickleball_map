@@ -13,6 +13,11 @@ A web application to discover and visualize pickleball playing opportunities in 
   - Number of courts
   - Whether nets are provided
   - Amenities and availability
+- 🏓 **Reservation Information** *(NEW)*: Access booking details for each court:
+  - Operating hours
+  - Pricing information
+  - Direct links to SF Rec & Parks reservation system
+  - Permit requirements for tournaments
 
 ## Data Source
 
@@ -142,7 +147,8 @@ pickleball/
 3. **Filter by Neighborhood**: Use the dropdown to show courts in specific neighborhoods
 4. **Filter by Nets**: Check "Nets Provided" to show only courts with nets
 5. **View Details**: Click on any map marker or court to view detailed information
-6. **Clear Filters**: Click "Clear Filters" to reset all filters
+6. **Check Reservation Info**: View hours, pricing, and click "Check Availability & Reserve" to book
+7. **Clear Filters**: Click "Clear Filters" to reset all filters
 
 ## Data Model
 
@@ -155,12 +161,19 @@ Each court includes:
 - `num_courts`: Number of pickleball courts
 - `nets_provided`: Boolean indicating if nets are provided
 - `amenities`: List of available amenities
+- `hours_of_operation`: Operating hours *(NEW)*
+- `pricing`: Cost information *(NEW)*
+- `reservation_url`: Link to online booking system *(NEW)*
+- `permit_required`: Whether permits are needed for tournaments *(NEW)*
+
+**Note**: Reservation data is manually curated and may require periodic updates. Last updated: February 2026.
 
 ## Future Enhancements
 
 - [ ] Add court photos
 - [ ] User reviews and ratings
-- [ ] Real-time availability/reservations
+- [x] Reservation information with booking links *(COMPLETED)*
+- [ ] Real-time slot availability via automated scraping
 - [ ] Directions integration
 - [ ] "Find courts near me" feature using geolocation
 - [ ] Indoor courts data

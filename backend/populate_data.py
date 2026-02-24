@@ -18,7 +18,11 @@ def populate_sample_data():
             'longitude': -122.4366,
             'num_courts': 2,
             'nets_provided': True,
-            'amenities': ['Open Play']
+            'amenities': ['Open Play'],
+            'hours_of_operation': 'Dawn to Dusk',
+            'pricing': 'Free - Open Play',
+            'reservation_url': '',
+            'permit_required': False
         },
         {
             'id': 'buena-vista-park',
@@ -29,7 +33,11 @@ def populate_sample_data():
             'longitude': -122.4396,
             'num_courts': 4,
             'nets_provided': False,
-            'amenities': ['Reservable']
+            'amenities': ['Reservable'],
+            'hours_of_operation': 'Dawn to Dusk',
+            'pricing': 'Free with reservation',
+            'reservation_url': 'https://www.rec.us/buenavista',
+            'permit_required': False
         },
         {
             'id': 'carl-larsen-playground',
@@ -40,7 +48,11 @@ def populate_sample_data():
             'longitude': -122.4755,
             'num_courts': 8,
             'nets_provided': True,
-            'amenities': ['Open Play', 'Tournaments']
+            'amenities': ['Open Play', 'Tournaments'],
+            'hours_of_operation': 'Dawn to Dusk',
+            'pricing': 'Free - Open Play; Permit required for tournaments',
+            'reservation_url': 'https://sfrecpark.org/1591/Reservable-Pickleball-Courts',
+            'permit_required': True
         },
         {
             'id': 'crocker-amazon-playground',
@@ -51,7 +63,11 @@ def populate_sample_data():
             'longitude': -122.4273,
             'num_courts': 4,
             'nets_provided': True,
-            'amenities': ['Reservable']
+            'amenities': ['Reservable'],
+            'hours_of_operation': 'Dawn to Dusk',
+            'pricing': 'Free with reservation',
+            'reservation_url': 'https://www.rec.us/crockeramazon',
+            'permit_required': False
         },
         {
             'id': 'east-cut-crossing',
@@ -62,7 +78,11 @@ def populate_sample_data():
             'longitude': -122.3927,
             'num_courts': 2,
             'nets_provided': True,
-            'amenities': ['Open Play (Fri & Sun only)']
+            'amenities': ['Open Play (Fri & Sun only)'],
+            'hours_of_operation': 'Friday & Sunday only, Dawn to Dusk',
+            'pricing': 'Free - Open Play',
+            'reservation_url': '',
+            'permit_required': False
         },
         {
             'id': 'george-christopher-playground',
@@ -73,7 +93,11 @@ def populate_sample_data():
             'longitude': -122.4453,
             'num_courts': 2,
             'nets_provided': False,
-            'amenities': ['Open Play']
+            'amenities': ['Open Play'],
+            'hours_of_operation': 'Dawn to Dusk',
+            'pricing': 'Free - Open Play',
+            'reservation_url': '',
+            'permit_required': False
         },
         {
             'id': 'goldman-tennis-center',
@@ -84,7 +108,11 @@ def populate_sample_data():
             'longitude': -122.4862,
             'num_courts': 5,
             'nets_provided': True,
-            'amenities': ['Reservations Only', 'Fees Apply']
+            'amenities': ['Reservations Only', 'Fees Apply'],
+            'hours_of_operation': 'Check website for hours',
+            'pricing': 'Paid reservations - Fees apply',
+            'reservation_url': 'https://gtc.clubautomation.com/',
+            'permit_required': True
         },
         {
             'id': 'jackson-playground',
@@ -95,7 +123,11 @@ def populate_sample_data():
             'longitude': -122.3980,
             'num_courts': 2,
             'nets_provided': False,
-            'amenities': ['Reservable']
+            'amenities': ['Reservable'],
+            'hours_of_operation': 'Dawn to Dusk',
+            'pricing': 'Free with reservation',
+            'reservation_url': 'https://www.rec.us/jackson',
+            'permit_required': False
         },
         {
             'id': 'louis-sutter-playground',
@@ -106,7 +138,11 @@ def populate_sample_data():
             'longitude': -122.4228,
             'num_courts': 6,
             'nets_provided': True,
-            'amenities': ['Open Play', 'Tournaments']
+            'amenities': ['Open Play', 'Tournaments'],
+            'hours_of_operation': 'Dawn to Dusk',
+            'pricing': 'Free - Open Play; Permit required for tournaments',
+            'reservation_url': 'https://sfrecpark.org/1591/Reservable-Pickleball-Courts',
+            'permit_required': True
         },
         {
             'id': 'moscone-playground',
@@ -117,7 +153,11 @@ def populate_sample_data():
             'longitude': -122.4304,
             'num_courts': 6,
             'nets_provided': True,
-            'amenities': ['Reservable', 'Open Play', 'Tournaments']
+            'amenities': ['Reservable', 'Open Play', 'Tournaments'],
+            'hours_of_operation': 'See schedule for open play hours',
+            'pricing': 'Free with reservation; Permit for tournaments',
+            'reservation_url': 'https://www.rec.us/moscone',
+            'permit_required': True
         },
         {
             'id': 'parkside-square',
@@ -128,7 +168,11 @@ def populate_sample_data():
             'longitude': -122.4884,
             'num_courts': 8,
             'nets_provided': False,
-            'amenities': ['Reservable']
+            'amenities': ['Reservable'],
+            'hours_of_operation': 'Dawn to Dusk',
+            'pricing': 'Free with reservation',
+            'reservation_url': 'https://www.rec.us/parkside',
+            'permit_required': False
         },
         {
             'id': 'presidio-wall-playground',
@@ -139,7 +183,11 @@ def populate_sample_data():
             'longitude': -122.4469,
             'num_courts': 6,
             'nets_provided': True,
-            'amenities': ['Reservable', 'Open Play', 'Tournaments']
+            'amenities': ['Reservable', 'Open Play', 'Tournaments'],
+            'hours_of_operation': 'See schedule for open play hours',
+            'pricing': 'Free with reservation; Permit for tournaments',
+            'reservation_url': 'https://rec.us/presidiowall',
+            'permit_required': True
         },
         {
             'id': 'richmond-playground',
@@ -150,7 +198,11 @@ def populate_sample_data():
             'longitude': -122.4636,
             'num_courts': 2,
             'nets_provided': True,
-            'amenities': ['Reservable']
+            'amenities': ['Reservable'],
+            'hours_of_operation': 'Dawn to Dusk',
+            'pricing': 'Free with reservation',
+            'reservation_url': 'http://rec.us/richmond',
+            'permit_required': False
         },
         {
             'id': 'rossi-playground',
@@ -161,7 +213,11 @@ def populate_sample_data():
             'longitude': -122.4594,
             'num_courts': 9,
             'nets_provided': True,
-            'amenities': ['Reservable', 'Open Play', 'Tournaments']
+            'amenities': ['Reservable', 'Open Play', 'Tournaments'],
+            'hours_of_operation': 'See schedule for open play hours',
+            'pricing': 'Free with reservation; Permit for tournaments',
+            'reservation_url': 'https://rec.us/rossi',
+            'permit_required': True
         },
         {
             'id': 'states-street-playground',
@@ -172,7 +228,11 @@ def populate_sample_data():
             'longitude': -122.4085,
             'num_courts': 2,
             'nets_provided': False,
-            'amenities': ['Open Play']
+            'amenities': ['Open Play'],
+            'hours_of_operation': 'Dawn to Dusk',
+            'pricing': 'Free - Open Play',
+            'reservation_url': '',
+            'permit_required': False
         },
         {
             'id': 'stern-grove',
@@ -183,7 +243,11 @@ def populate_sample_data():
             'longitude': -122.4744,
             'num_courts': 6,
             'nets_provided': True,
-            'amenities': ['Reservable']
+            'amenities': ['Reservable'],
+            'hours_of_operation': 'Dawn to Dusk',
+            'pricing': 'Free with reservation',
+            'reservation_url': 'https://www.rec.us/sterngrove',
+            'permit_required': False
         },
         {
             'id': 'upper-noe-rec-center',
@@ -194,7 +258,11 @@ def populate_sample_data():
             'longitude': -122.4294,
             'num_courts': 2,
             'nets_provided': True,
-            'amenities': ['Reservable', 'Open Play Tue/Thu 10:30am-1:30pm']
+            'amenities': ['Reservable', 'Open Play Tue/Thu 10:30am-1:30pm'],
+            'hours_of_operation': 'Tue/Thu 10:30am-1:30pm (Open Play)',
+            'pricing': 'Free with reservation',
+            'reservation_url': 'https://www.rec.us/uppernoe',
+            'permit_required': False
         },
     ]
     
