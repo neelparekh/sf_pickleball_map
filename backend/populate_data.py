@@ -19,8 +19,8 @@ def populate_sample_data():
             'num_courts': 2,
             'nets_provided': True,
             'amenities': ['Open Play'],
-            'hours_of_operation': '6:00 AM - 10:00 PM daily',
-            'pricing': 'Free - No reservations, open play only',
+            'hours_of_operation': '6:00 AM - 10:00 PM daily (2 courts - all open play)',
+            'pricing': 'Free',
             'reservation_url': '',
             'permit_required': False
         },
@@ -34,8 +34,8 @@ def populate_sample_data():
             'num_courts': 4,
             'nets_provided': False,
             'amenities': ['Reservable'],
-            'hours_of_operation': '6:00 AM - 10:00 PM daily',
-            'pricing': '$5/hour (90-minute reservations)',
+            'hours_of_operation': '6:00 AM - 10:00 PM daily (4 courts - all reservable)',
+            'pricing': '$5/hour (90-min slots)',
             'reservation_url': 'https://www.rec.us/buenavista',
             'permit_required': False
         },
@@ -49,10 +49,10 @@ def populate_sample_data():
             'num_courts': 8,
             'nets_provided': True,
             'amenities': ['Open Play', 'Tournaments'],
-            'hours_of_operation': '7:00 AM - 9:00 PM daily',
-            'pricing': 'Free for open play; Permit required for tournaments',
-            'reservation_url': 'https://sfrecpark.org/1591/Reservable-Pickleball-Courts',
-            'permit_required': True
+            'hours_of_operation': '7:00 AM - 9:00 PM daily (8 courts - all open play)',
+            'pricing': 'Free for open play',
+            'reservation_url': '',
+            'permit_required': False
         },
         {
             'id': 'crocker-amazon-playground',
@@ -64,8 +64,8 @@ def populate_sample_data():
             'num_courts': 4,
             'nets_provided': True,
             'amenities': ['Reservable'],
-            'hours_of_operation': '7:00 AM - 9:00 PM daily',
-            'pricing': '$5/hour (90-minute reservations)',
+            'hours_of_operation': '7:00 AM - 9:00 PM daily (4 courts - all reservable)',
+            'pricing': '$5/hour (90-min slots)',
             'reservation_url': 'https://www.rec.us/crockeramazon',
             'permit_required': False
         },
@@ -79,8 +79,8 @@ def populate_sample_data():
             'num_courts': 2,
             'nets_provided': True,
             'amenities': ['Open Play (Fri & Sun only)'],
-            'hours_of_operation': 'Fridays & Sundays: 8:00 AM - 6:00 PM',
-            'pricing': 'Free - No reservations, open play only',
+            'hours_of_operation': 'Fridays & Sundays 8:00 AM - 6:00 PM (2 courts - open play)',
+            'pricing': 'Free',
             'reservation_url': '',
             'permit_required': False
         },
@@ -94,8 +94,8 @@ def populate_sample_data():
             'num_courts': 2,
             'nets_provided': False,
             'amenities': ['Open Play'],
-            'hours_of_operation': '6:00 AM - 10:00 PM daily',
-            'pricing': 'Free - No reservations, open play only',
+            'hours_of_operation': '6:00 AM - 10:00 PM daily (2 courts - all open play)',
+            'pricing': 'Free',
             'reservation_url': '',
             'permit_required': False
         },
@@ -109,10 +109,10 @@ def populate_sample_data():
             'num_courts': 5,
             'nets_provided': True,
             'amenities': ['Reservations Only', 'Fees Apply'],
-            'hours_of_operation': '7:00 AM - 9:00 PM daily',
-            'pricing': 'Paid facility - See website for rates',
+            'hours_of_operation': '7:00 AM - 9:00 PM daily (5 courts - all reservable)',
+            'pricing': 'See website for rates',
             'reservation_url': 'https://gtc.clubautomation.com/',
-            'permit_required': True
+            'permit_required': False
         },
         {
             'id': 'jackson-playground',
@@ -124,8 +124,8 @@ def populate_sample_data():
             'num_courts': 2,
             'nets_provided': False,
             'amenities': ['Reservable'],
-            'hours_of_operation': '6:00 AM - 10:00 PM daily',
-            'pricing': '$5/hour (60-minute reservations)',
+            'hours_of_operation': '6:00 AM - 10:00 PM daily (2 courts - all reservable)',
+            'pricing': '$5/hour (60-min slots)',
             'reservation_url': 'https://www.rec.us/jackson',
             'permit_required': False
         },
@@ -139,10 +139,10 @@ def populate_sample_data():
             'num_courts': 6,
             'nets_provided': True,
             'amenities': ['Open Play', 'Tournaments'],
-            'hours_of_operation': '7:00 AM - 9:00 PM daily',
-            'pricing': 'Free for open play; Permit required for tournaments',
-            'reservation_url': 'https://sfrecpark.org/1591/Reservable-Pickleball-Courts',
-            'permit_required': True
+            'hours_of_operation': '7:00 AM - 9:00 PM daily (6 courts - all open play)',
+            'pricing': 'Free',
+            'reservation_url': '',
+            'permit_required': False
         },
         {
             'id': 'moscone-playground',
@@ -154,10 +154,10 @@ def populate_sample_data():
             'num_courts': 6,
             'nets_provided': True,
             'amenities': ['Reservable', 'Open Play', 'Tournaments'],
-            'hours_of_operation': '7:00 AM - 9:00 PM daily',
-            'pricing': '$5/hour (90-minute reservations); Permit for tournaments',
+            'hours_of_operation': '7:00 AM - 9:00 PM daily (6 courts - reservable & open play)',
+            'pricing': '$5/hour (90-min slots)',
             'reservation_url': 'https://www.rec.us/moscone',
-            'permit_required': True
+            'permit_required': False
         },
         {
             'id': 'parkside-square',
@@ -169,8 +169,8 @@ def populate_sample_data():
             'num_courts': 8,
             'nets_provided': False,
             'amenities': ['Reservable'],
-            'hours_of_operation': '6:00 AM - 10:00 PM daily',
-            'pricing': '$5/hour (90-minute reservations)',
+            'hours_of_operation': '6:00 AM - 10:00 PM daily (8 courts - all reservable)',
+            'pricing': '$5/hour (90-min slots)',
             'reservation_url': 'https://www.rec.us/parkside',
             'permit_required': False
         },
@@ -184,10 +184,10 @@ def populate_sample_data():
             'num_courts': 6,
             'nets_provided': True,
             'amenities': ['Reservable', 'Open Play', 'Tournaments'],
-            'hours_of_operation': '7:00 AM - 9:00 PM daily',
-            'pricing': '$5/hour (90-minute reservations); Permit for tournaments',
+            'hours_of_operation': '7:00 AM - 9:00 PM daily (6 courts - reservable & open play)',
+            'pricing': '$5/hour (90-min slots)',
             'reservation_url': 'https://rec.us/presidiowall',
-            'permit_required': True
+            'permit_required': False
         },
         {
             'id': 'richmond-playground',
@@ -199,8 +199,8 @@ def populate_sample_data():
             'num_courts': 2,
             'nets_provided': True,
             'amenities': ['Reservable'],
-            'hours_of_operation': '6:00 AM - 10:00 PM daily',
-            'pricing': '$5/hour (60-minute reservations)',
+            'hours_of_operation': '6:00 AM - 10:00 PM daily (2 courts - all reservable)',
+            'pricing': '$5/hour (60-min slots)',
             'reservation_url': 'http://rec.us/richmond',
             'permit_required': False
         },
@@ -214,10 +214,10 @@ def populate_sample_data():
             'num_courts': 9,
             'nets_provided': True,
             'amenities': ['Reservable', 'Open Play', 'Tournaments'],
-            'hours_of_operation': '7:00 AM - 9:00 PM daily',
-            'pricing': '$5/hour (90-minute reservations); Permit for tournaments',
+            'hours_of_operation': '7:00 AM - 9:00 PM daily (9 courts - reservable & open play)',
+            'pricing': '$5/hour (90-min slots)',
             'reservation_url': 'https://rec.us/rossi',
-            'permit_required': True
+            'permit_required': False
         },
         {
             'id': 'states-street-playground',
@@ -229,8 +229,8 @@ def populate_sample_data():
             'num_courts': 2,
             'nets_provided': False,
             'amenities': ['Open Play'],
-            'hours_of_operation': '6:00 AM - 10:00 PM daily',
-            'pricing': 'Free - No reservations, open play only',
+            'hours_of_operation': '6:00 AM - 10:00 PM daily (2 courts - all open play)',
+            'pricing': 'Free',
             'reservation_url': '',
             'permit_required': False
         },
@@ -244,8 +244,8 @@ def populate_sample_data():
             'num_courts': 6,
             'nets_provided': True,
             'amenities': ['Reservable'],
-            'hours_of_operation': '7:00 AM - 9:00 PM daily',
-            'pricing': '$5/hour (90-minute reservations)',
+            'hours_of_operation': '7:00 AM - 9:00 PM daily (6 courts - all reservable)',
+            'pricing': '$5/hour (90-min slots)',
             'reservation_url': 'https://www.rec.us/sterngrove',
             'permit_required': False
         },
@@ -259,8 +259,8 @@ def populate_sample_data():
             'num_courts': 2,
             'nets_provided': True,
             'amenities': ['Reservable', 'Open Play Tue/Thu 10:30am-1:30pm'],
-            'hours_of_operation': '6:00 AM - 10:00 PM daily (Open play Tue/Thu 10:30am-1:30pm)',
-            'pricing': '$5/hour (60-minute reservations)',
+            'hours_of_operation': '6:00 AM - 10:00 PM (2 courts - reservable; open play Tue/Thu 10:30am-1:30pm)',
+            'pricing': '$5/hour (60-min slots)',
             'reservation_url': 'https://www.rec.us/uppernoe',
             'permit_required': False
         },

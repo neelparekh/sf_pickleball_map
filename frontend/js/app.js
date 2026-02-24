@@ -164,6 +164,9 @@ function updateDisplay() {
  * Show court details in sidebar
  */
 function showCourtDetails(court) {
+    // Extract court availability info from hours if present
+    const courtAvailability = extractCourtAvailability(court.hours_of_operation);
+    
     const html = `
         <div class="detail-section">
             <h3>${court.name}</h3>
@@ -176,8 +179,8 @@ function showCourtDetails(court) {
                 <span>${court.neighborhood || 'N/A'}</span>
             </div>
             <div class="detail-row">
-                <span class="detail-label">🎾 Number of Courts:</span>
-                <span>${court.num_courts || 'N/A'}</span>
+                <span class="detail-label">🎾 Courts:</span>
+                <span>${court.num_courts || 'N/A'}${courtAvailability ? ` - ${courtAvailability}` : ''}</span>
             </div>
             <div class="detail-row">
                 <span class="detail-label">🥅 Nets:</span>
@@ -203,6 +206,27 @@ function showCourtDetails(court) {
 }
 
 /**
+ * Extract court availability info from hours string
+ */
+function extractCourtAvailability(hoursString) {
+    if (!hoursString) return null;
+    
+    // Match patterns like "(4 courts - all reservable)" and extract just the availability part
+    const match = hoursString.match(/\(\d+\s+courts\s*-\s*([^)]+)\)/);
+    return match ? match[1] : null;
+}
+
+/**
+ * Clean hours string by removing court availability info
+ */
+function cleanHoursString(hoursString) {
+    if (!hoursString) return '';
+    
+    // Remove the court availability info in parentheses
+    return hoursString.replace(/\s*\(\d+\s+courts\s*-\s*[^)]+\)/, '').trim();
+}
+
+/**
  * Generate reservation section HTML
  */
 function getReservationSection(court) {
@@ -213,23 +237,22 @@ function getReservationSection(court) {
     }
     
     const hasReservationUrl = court.reservation_url && court.reservation_url.trim() !== '';
+    const cleanedHours = cleanHoursString(court.hours_of_operation);
     
     return `
         <div class="reservation-section">
             <h3>🏓 Reservation Info</h3>
             <div class="reservation-info">
-                ${court.hours_of_operation ? `
+                ${cleanedHours ? `
                     <div class="reservation-row">
                         <strong>⏰ Hours</strong>
-                        <span>${court.hours_of_operation}</span>
+                        <span>${cleanedHours}</span>
                     </div>
                 ` : ''}
                 ${court.pricing ? `
                     <div class="reservation-row">
                         <strong>💰 Pricing</strong>
                         <span>${court.pricing}</span>
-                        ${court.permit_required ? 
-                            '<div class="permit-badge">Permit Required for Tournaments</div>' : ''}
                     </div>
                 ` : ''}
             </div>
@@ -241,9 +264,9 @@ function getReservationSection(court) {
                     Check Availability & Reserve →
                 </a>
             ` : `
-                <button class="reserve-btn disabled" disabled>
-                    No Online Reservations - Walk-in Only
-                </button>
+                <div style="margin-top: 0.5rem; color: #666; font-size: 0.9rem; text-align: center;">
+                    Walk-in only - No online reservations
+                </div>
             `}
         </div>
     `;
