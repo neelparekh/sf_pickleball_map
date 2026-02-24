@@ -1,412 +1,5 @@
 [
   {
-    "id": "alice-chalmers-playground",
-    "name": "Alice Chalmers Playground",
-    "address": "1900 Diamond St, San Francisco, CA 94131",
-    "neighborhood": "Noe Valley",
-    "latitude": 37.7378,
-    "longitude": -122.4358,
-    "hours": "Dawn to Dusk",
-    "num_courts": 2,
-    "nets_provided": true,
-    "amenities": [
-      "restrooms",
-      "parking"
-    ]
-  },
-  {
-    "id": "golden-gate-park-pickleball",
-    "name": "Golden Gate Park Pickleball Courts",
-    "address": "Golden Gate Park, San Francisco, CA 94122",
-    "neighborhood": "Sunset",
-    "latitude": 37.7694,
-    "longitude": -122.4862,
-    "hours": "6:00 AM - 10:00 PM",
-    "num_courts": 6,
-    "nets_provided": true,
-    "amenities": [
-      "restrooms",
-      "water",
-      "parking"
-    ]
-  },
-  {
-    "id": "mission-dolores-park",
-    "name": "Mission Dolores Park",
-    "address": "19th St & Dolores St, San Francisco, CA 94114",
-    "neighborhood": "Mission",
-    "latitude": 37.7596,
-    "longitude": -122.4269,
-    "hours": "6:00 AM - 10:00 PM",
-    "num_courts": 4,
-    "nets_provided": true,
-    "amenities": [
-      "restrooms",
-      "water",
-      "parking",
-      "lights"
-    ]
-  },
-  {
-    "id": "crocker-amazon-playground",
-    "name": "Crocker Amazon Playground",
-    "address": "799 Moscow St, San Francisco, CA 94134",
-    "neighborhood": "Excelsior",
-    "latitude": 37.712,
-    "longitude": -122.4273,
-    "hours": "Dawn to Dusk",
-    "num_courts": 3,
-    "nets_provided": true,
-    "amenities": [
-      "restrooms",
-      "parking"
-    ]
-  },
-  {
-    "id": "st-marys-recreation-center",
-    "name": "St. Mary's Recreation Center",
-    "address": "955 Murray St, San Francisco, CA 94134",
-    "neighborhood": "Bernal Heights",
-    "latitude": 37.7261,
-    "longitude": -122.4092,
-    "hours": "9:00 AM - 9:00 PM",
-    "num_courts": 2,
-    "nets_provided": true,
-    "amenities": [
-      "restrooms",
-      "water",
-      "lights"
-    ]
-  },
-  {
-    "id": "alice-marble-tennis-courts",
-    "name": "Alice Marble Tennis Courts",
-    "address": "Greenwich St & Hyde St, San Francisco, CA 94109",
-    "neighborhood": "Russian Hill",
-    "latitude": 37.8017,
-    "longitude": -122.4192,
-    "hours": "8:00 AM - Dusk",
-    "num_courts": 4,
-    "nets_provided": false,
-    "amenities": [
-      "restrooms",
-      "water",
-      "benches"
-    ]
-  },
-  {
-    "id": "upper-noe-recreation-center",
-    "name": "Upper Noe Recreation Center",
-    "address": "295 Day St, San Francisco, CA 94131",
-    "neighborhood": "Noe Valley",
-    "latitude": 37.7416,
-    "longitude": -122.4294,
-    "hours": "9:00 AM - 8:00 PM",
-    "num_courts": 2,
-    "nets_provided": true,
-    "amenities": [
-      "restrooms",
-      "parking",
-      "water"
-    ]
-  },
-  {
-    "id": "south-sunset-playground",
-    "name": "South Sunset Playground",
-    "address": "2201 40th Ave, San Francisco, CA 94116",
-    "neighborhood": "Sunset",
-    "latitude": 37.7477,
-    "longitude": -122.4978,
-    "hours": "Dawn to Dusk",
-    "num_courts": 2,
-    "nets_provided": true,
-    "amenities": [
-      "restrooms",
-      "parking"
-    ]
-  },
-  {
-    "id": "balboa-park",
-    "name": "Balboa Park",
-    "address": "San Jose Ave & Ocean Ave, San Francisco, CA 94112",
-    "neighborhood": "Outer Mission",
-    "latitude": 37.7208,
-    "longitude": -122.4454,
-    "hours": "6:00 AM - 10:00 PM",
-    "num_courts": 4,
-    "nets_provided": true,
-    "amenities": [
-      "restrooms",
-      "water",
-      "parking",
-      "lights"
-    ]
-  },
-  {
-    "id": "moscone-recreation-center",
-    "name": "Moscone Recreation Center",
-    "address": "1800 Chestnut St, San Francisco, CA 94123",
-    "neighborhood": "Marina",
-    "latitude": 37.7998,
-    "longitude": -122.4339,
-    "hours": "9:00 AM - 9:00 PM",
-    "num_courts": 3,
-    "nets_provided": true,
-    "amenities": [
-      "restrooms",
-      "water",
-      "parking"
-    ]
-  },
-  {
-    "id": "alta-plaza-park",
-    "name": "Alta Plaza Park",
-    "address": "Clay St & Steiner St, San Francisco, CA",
-    "neighborhood": "Pacific Heights",
-    "latitude": null,
-    "longitude": null,
-    "hours": "",
-    "num_courts": 2,
-    "nets_provided": true,
-    "amenities": [
-      "Open Play"
-    ]
-  },
-  {
-    "id": "buena-vista-park",
-    "name": "Buena Vista Park",
-    "address": "Haight St & Buena Vista Ave E, San Francisco, CA",
-    "neighborhood": "Haight",
-    "latitude": null,
-    "longitude": null,
-    "hours": "",
-    "num_courts": 4,
-    "nets_provided": false,
-    "amenities": [
-      "Reservable"
-    ]
-  },
-  {
-    "id": "carl-larsen-playground",
-    "name": "Carl Larsen Playground",
-    "address": "19th Ave & Wawona St, San Francisco, CA",
-    "neighborhood": "Sunset",
-    "latitude": null,
-    "longitude": null,
-    "hours": "",
-    "num_courts": 8,
-    "nets_provided": true,
-    "amenities": [
-      "Open Play",
-      "Tournaments"
-    ]
-  },
-  {
-    "id": "crocker-amazon-playground",
-    "name": "Crocker Amazon Playground",
-    "address": "Moscow St & Geneva Ave, San Francisco, CA",
-    "neighborhood": "Excelsior",
-    "latitude": null,
-    "longitude": null,
-    "hours": "",
-    "num_courts": 4,
-    "nets_provided": true,
-    "amenities": [
-      "Reservable"
-    ]
-  },
-  {
-    "id": "east-cut-crossing",
-    "name": "East Cut Crossing",
-    "address": "1st St & Folsom St, San Francisco, CA",
-    "neighborhood": "SoMa",
-    "latitude": null,
-    "longitude": null,
-    "hours": "",
-    "num_courts": 2,
-    "nets_provided": true,
-    "amenities": [
-      "Open Play (Fri & Sun only)"
-    ]
-  },
-  {
-    "id": "george-christopher-playground",
-    "name": "George Christopher Playground",
-    "address": "Diamond Heights Blvd & Gold Mine Dr, San Francisco, CA",
-    "neighborhood": "Diamond Heights",
-    "latitude": null,
-    "longitude": null,
-    "hours": "",
-    "num_courts": 2,
-    "nets_provided": false,
-    "amenities": [
-      "Open Play"
-    ]
-  },
-  {
-    "id": "goldman-tennis-center",
-    "name": "Goldman Tennis Center (GGP)",
-    "address": "Golden Gate Park, San Francisco, CA",
-    "neighborhood": "Golden Gate Park",
-    "latitude": null,
-    "longitude": null,
-    "hours": "",
-    "num_courts": 5,
-    "nets_provided": true,
-    "amenities": [
-      "Reservations Only",
-      "Fees Apply"
-    ]
-  },
-  {
-    "id": "jackson-playground",
-    "name": "Jackson Playground",
-    "address": "17th St & Arkansas St, San Francisco, CA",
-    "neighborhood": "Potrero Hill",
-    "latitude": null,
-    "longitude": null,
-    "hours": "",
-    "num_courts": 2,
-    "nets_provided": false,
-    "amenities": [
-      "Reservable"
-    ]
-  },
-  {
-    "id": "louis-sutter-playground",
-    "name": "Louis Sutter Playground",
-    "address": "Gough St & Turk St, San Francisco, CA",
-    "neighborhood": "Western Addition",
-    "latitude": null,
-    "longitude": null,
-    "hours": "",
-    "num_courts": 6,
-    "nets_provided": true,
-    "amenities": [
-      "Open Play",
-      "Tournaments"
-    ]
-  },
-  {
-    "id": "moscone-playground",
-    "name": "Moscone Playground",
-    "address": "Chestnut St & Laguna St, San Francisco, CA",
-    "neighborhood": "Marina",
-    "latitude": null,
-    "longitude": null,
-    "hours": "",
-    "num_courts": 6,
-    "nets_provided": true,
-    "amenities": [
-      "Reservable",
-      "Open Play",
-      "Tournaments"
-    ]
-  },
-  {
-    "id": "parkside-square",
-    "name": "Parkside Square",
-    "address": "28th Ave & Vicente St, San Francisco, CA",
-    "neighborhood": "Parkside",
-    "latitude": null,
-    "longitude": null,
-    "hours": "",
-    "num_courts": 8,
-    "nets_provided": false,
-    "amenities": [
-      "Reservable"
-    ]
-  },
-  {
-    "id": "presidio-wall-playground",
-    "name": "Presidio Wall Playground",
-    "address": "Lyon St & Greenwich St, San Francisco, CA",
-    "neighborhood": "Presidio",
-    "latitude": null,
-    "longitude": null,
-    "hours": "",
-    "num_courts": 6,
-    "nets_provided": true,
-    "amenities": [
-      "Reservable",
-      "Open Play",
-      "Tournaments"
-    ]
-  },
-  {
-    "id": "richmond-playground",
-    "name": "Richmond Playground",
-    "address": "5th Ave & Balboa St, San Francisco, CA",
-    "neighborhood": "Richmond",
-    "latitude": null,
-    "longitude": null,
-    "hours": "",
-    "num_courts": 2,
-    "nets_provided": true,
-    "amenities": [
-      "Reservable"
-    ]
-  },
-  {
-    "id": "rossi-playground",
-    "name": "Rossi Playground",
-    "address": "Arguello Blvd & Anza St, San Francisco, CA",
-    "neighborhood": "Richmond",
-    "latitude": null,
-    "longitude": null,
-    "hours": "",
-    "num_courts": 9,
-    "nets_provided": true,
-    "amenities": [
-      "Reservable",
-      "Open Play",
-      "Tournaments"
-    ]
-  },
-  {
-    "id": "states-street-playground",
-    "name": "States Street Playground",
-    "address": "States St & 20th St, San Francisco, CA",
-    "neighborhood": "Bernal Heights",
-    "latitude": null,
-    "longitude": null,
-    "hours": "",
-    "num_courts": 2,
-    "nets_provided": false,
-    "amenities": [
-      "Open Play"
-    ]
-  },
-  {
-    "id": "stern-grove",
-    "name": "Stern Grove",
-    "address": "19th Ave & Sloat Blvd, San Francisco, CA",
-    "neighborhood": "Sunset",
-    "latitude": null,
-    "longitude": null,
-    "hours": "",
-    "num_courts": 6,
-    "nets_provided": true,
-    "amenities": [
-      "Reservable"
-    ]
-  },
-  {
-    "id": "upper-noe-rec-center",
-    "name": "Upper Noe Rec Center",
-    "address": "295 Day St, San Francisco, CA",
-    "neighborhood": "Noe Valley",
-    "latitude": null,
-    "longitude": null,
-    "hours": "",
-    "num_courts": 2,
-    "nets_provided": true,
-    "amenities": [
-      "Reservable",
-      "Open Play Tue/Thu 10:30am-1:30pm"
-    ]
-  },
-  {
     "id": "alta-plaza-park",
     "name": "Alta Plaza Park",
     "address": "Clay St & Steiner St, San Francisco, CA",
@@ -418,7 +11,11 @@
     "nets_provided": true,
     "amenities": [
       "Open Play"
-    ]
+    ],
+    "hours_of_operation": "6:00 AM - 10:00 PM daily (2 courts - all open play)",
+    "pricing": "Free",
+    "reservation_url": "",
+    "permit_required": false
   },
   {
     "id": "buena-vista-park",
@@ -432,7 +29,11 @@
     "nets_provided": false,
     "amenities": [
       "Reservable"
-    ]
+    ],
+    "hours_of_operation": "6:00 AM - 10:00 PM daily (4 courts - all reservable)",
+    "pricing": "$5/hour (90-min slots)",
+    "reservation_url": "https://www.rec.us/buenavista",
+    "permit_required": false
   },
   {
     "id": "carl-larsen-playground",
@@ -447,7 +48,11 @@
     "amenities": [
       "Open Play",
       "Tournaments"
-    ]
+    ],
+    "hours_of_operation": "7:00 AM - 9:00 PM daily (8 courts - all open play)",
+    "pricing": "Free for open play",
+    "reservation_url": "",
+    "permit_required": false
   },
   {
     "id": "crocker-amazon-playground",
@@ -461,7 +66,11 @@
     "nets_provided": true,
     "amenities": [
       "Reservable"
-    ]
+    ],
+    "hours_of_operation": "7:00 AM - 9:00 PM daily (4 courts - all reservable)",
+    "pricing": "$5/hour (90-min slots)",
+    "reservation_url": "https://www.rec.us/crockeramazon",
+    "permit_required": false
   },
   {
     "id": "east-cut-crossing",
@@ -475,7 +84,11 @@
     "nets_provided": true,
     "amenities": [
       "Open Play (Fri & Sun only)"
-    ]
+    ],
+    "hours_of_operation": "Fridays & Sundays 8:00 AM - 6:00 PM (2 courts - open play)",
+    "pricing": "Free",
+    "reservation_url": "",
+    "permit_required": false
   },
   {
     "id": "george-christopher-playground",
@@ -489,7 +102,11 @@
     "nets_provided": false,
     "amenities": [
       "Open Play"
-    ]
+    ],
+    "hours_of_operation": "6:00 AM - 10:00 PM daily (2 courts - all open play)",
+    "pricing": "Free",
+    "reservation_url": "",
+    "permit_required": false
   },
   {
     "id": "goldman-tennis-center",
@@ -504,7 +121,11 @@
     "amenities": [
       "Reservations Only",
       "Fees Apply"
-    ]
+    ],
+    "hours_of_operation": "7:00 AM - 9:00 PM daily (5 courts - all reservable)",
+    "pricing": "See website for rates",
+    "reservation_url": "https://gtc.clubautomation.com/",
+    "permit_required": false
   },
   {
     "id": "jackson-playground",
@@ -518,7 +139,11 @@
     "nets_provided": false,
     "amenities": [
       "Reservable"
-    ]
+    ],
+    "hours_of_operation": "6:00 AM - 10:00 PM daily (2 courts - all reservable)",
+    "pricing": "$5/hour (60-min slots)",
+    "reservation_url": "https://www.rec.us/jackson",
+    "permit_required": false
   },
   {
     "id": "louis-sutter-playground",
@@ -533,7 +158,11 @@
     "amenities": [
       "Open Play",
       "Tournaments"
-    ]
+    ],
+    "hours_of_operation": "7:00 AM - 9:00 PM daily (6 courts - all open play)",
+    "pricing": "Free",
+    "reservation_url": "",
+    "permit_required": false
   },
   {
     "id": "moscone-playground",
@@ -549,7 +178,11 @@
       "Reservable",
       "Open Play",
       "Tournaments"
-    ]
+    ],
+    "hours_of_operation": "7:00 AM - 9:00 PM daily (6 courts - reservable & open play)",
+    "pricing": "$5/hour (90-min slots)",
+    "reservation_url": "https://www.rec.us/moscone",
+    "permit_required": false
   },
   {
     "id": "parkside-square",
@@ -563,7 +196,11 @@
     "nets_provided": false,
     "amenities": [
       "Reservable"
-    ]
+    ],
+    "hours_of_operation": "6:00 AM - 10:00 PM daily (8 courts - all reservable)",
+    "pricing": "$5/hour (90-min slots)",
+    "reservation_url": "https://www.rec.us/parkside",
+    "permit_required": false
   },
   {
     "id": "presidio-wall-playground",
@@ -579,7 +216,11 @@
       "Reservable",
       "Open Play",
       "Tournaments"
-    ]
+    ],
+    "hours_of_operation": "7:00 AM - 9:00 PM daily (6 courts - reservable & open play)",
+    "pricing": "$5/hour (90-min slots)",
+    "reservation_url": "https://rec.us/presidiowall",
+    "permit_required": false
   },
   {
     "id": "richmond-playground",
@@ -593,7 +234,11 @@
     "nets_provided": true,
     "amenities": [
       "Reservable"
-    ]
+    ],
+    "hours_of_operation": "6:00 AM - 10:00 PM daily (2 courts - all reservable)",
+    "pricing": "$5/hour (60-min slots)",
+    "reservation_url": "http://rec.us/richmond",
+    "permit_required": false
   },
   {
     "id": "rossi-playground",
@@ -609,7 +254,11 @@
       "Reservable",
       "Open Play",
       "Tournaments"
-    ]
+    ],
+    "hours_of_operation": "7:00 AM - 9:00 PM daily (9 courts - reservable & open play)",
+    "pricing": "$5/hour (90-min slots)",
+    "reservation_url": "https://rec.us/rossi",
+    "permit_required": false
   },
   {
     "id": "states-street-playground",
@@ -623,7 +272,11 @@
     "nets_provided": false,
     "amenities": [
       "Open Play"
-    ]
+    ],
+    "hours_of_operation": "6:00 AM - 10:00 PM daily (2 courts - all open play)",
+    "pricing": "Free",
+    "reservation_url": "",
+    "permit_required": false
   },
   {
     "id": "stern-grove",
@@ -637,7 +290,11 @@
     "nets_provided": true,
     "amenities": [
       "Reservable"
-    ]
+    ],
+    "hours_of_operation": "7:00 AM - 9:00 PM daily (6 courts - all reservable)",
+    "pricing": "$5/hour (90-min slots)",
+    "reservation_url": "https://www.rec.us/sterngrove",
+    "permit_required": false
   },
   {
     "id": "upper-noe-rec-center",
@@ -652,6 +309,10 @@
     "amenities": [
       "Reservable",
       "Open Play Tue/Thu 10:30am-1:30pm"
-    ]
+    ],
+    "hours_of_operation": "6:00 AM - 10:00 PM (2 courts - reservable; open play Tue/Thu 10:30am-1:30pm)",
+    "pricing": "$5/hour (60-min slots)",
+    "reservation_url": "https://www.rec.us/uppernoe",
+    "permit_required": false
   }
 ]
