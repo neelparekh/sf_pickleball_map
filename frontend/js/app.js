@@ -228,8 +228,6 @@ function getReservationSection(court) {
                     <div class="reservation-row">
                         <strong>💰 Pricing</strong>
                         <span>${court.pricing}</span>
-                        ${court.pricing.toLowerCase().includes('free') ? 
-                            '<div class="free-badge">Free to Play</div>' : ''}
                         ${court.permit_required ? 
                             '<div class="permit-badge">Permit Required for Tournaments</div>' : ''}
                     </div>
