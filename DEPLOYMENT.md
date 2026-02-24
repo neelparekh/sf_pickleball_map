@@ -2,7 +2,25 @@
 
 ## Quick Reference
 
-### First-Time Setup
+### First-Time Setup (Using docs/ folder - No Actions needed)
+
+**✅ RECOMMENDED METHOD** - Works without GitHub Actions (no billing issues)
+
+1. **Enable GitHub Pages**
+   - Go to repository Settings > Pages
+   - Under "Build and deployment":
+     - **Source**: Select "Deploy from a branch"
+     - **Branch**: Select "main"
+     - **Folder**: Select "/docs"
+   - Click Save
+
+2. **Wait for Deployment**
+   - Wait 1-2 minutes
+   - Site will be live at: `https://neelparekh.github.io/sf_pickleball_map/`
+
+### Alternative: GitHub Actions Method
+
+Only use if you have GitHub Actions enabled:
 
 1. **Enable GitHub Pages**
    - Go to repository Settings > Pages
@@ -19,7 +37,7 @@
 3. **Check Deployment Status**
    - Go to Actions tab in GitHub
    - Watch the "Deploy to GitHub Pages" workflow
-   - Site will be live at: `https://YOUR-USERNAME.github.io/pickleball/`
+   - Site will be live at: `https://neelparekh.github.io/sf_pickleball_map/`
 
 ### Making Updates
 
@@ -30,7 +48,8 @@
    # Edit backend/data/courts.json
    cd backend
    python export_static.py
-   git add ../frontend/data/
+   cp -r ../frontend ../docs  # Update docs folder
+   git add ../frontend/data/ ../docs/
    git commit -m "Update court data"
    git push
    ```
@@ -41,7 +60,8 @@
    cd backend
    python populate_data.py
    python export_static.py
-   git add ../frontend/data/
+   cp -r ../frontend ../docs  # Update docs folder
+   git add ../frontend/data/ ../docs/
    git commit -m "Update court data"
    git push
    ```
@@ -50,7 +70,8 @@
 
 ```bash
 # Edit files in frontend/ (HTML, CSS, JS)
-git add frontend/
+cp -r frontend docs  # Update docs folder
+git add frontend/ docs/
 git commit -m "Update frontend"
 git push
 ```
@@ -89,19 +110,20 @@ python3 -m http.server 8000
 
 ### Architecture Notes
 
-- **Deployment**: GitHub Actions workflow (`.github/workflows/deploy.yml`)
-- **Build Step**: Exports `backend/data/courts.json` → `frontend/data/*.json`
-- **Frontend**: Pure static files (HTML/CSS/JS) served from `frontend/` directory
+- **Deployment**: Static files served from `docs/` folder (copy of `frontend/`)
+- **Build Step**: Exports `backend/data/courts.json` → `frontend/data/*.json` → `docs/data/*.json`
+- **Frontend**: Pure static files (HTML/CSS/JS)
 - **No Server**: All filtering/search happens client-side in browser
 - **Data Updates**: Require commit + push (no real-time updates)
 
 ### Files That Must Be Committed
 
+✅ `docs/` directory (entire folder - deployed to GitHub Pages)
+✅ `frontend/` directory (source files)
 ✅ `frontend/data/courts.json`
 ✅ `frontend/data/neighborhoods.json`
 ✅ `frontend/data/stats.json`
-✅ All files in `frontend/` directory
-✅ `.github/workflows/deploy.yml`
+✅ `.github/workflows/deploy.yml` (optional - for Actions method)
 
 ### Files Excluded from Git
 
