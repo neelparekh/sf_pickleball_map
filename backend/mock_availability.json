@@ -1,0 +1,1375 @@
+{
+  "court_id": "buena-vista-park",
+  "court_name": "Buena Vista Park",
+  "date_range": {
+    "start": "2026-02-24",
+    "end": "2026-03-03"
+  },
+  "days": [
+    {
+      "date": "2026-02-24",
+      "day_of_week": "Tuesday",
+      "slots": [
+        {
+          "start_time": "07:00",
+          "end_time": "08:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "07:90",
+          "end_time": "10:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "08:00",
+          "end_time": "09:30",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "08:90",
+          "end_time": "11:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "09:00",
+          "end_time": "10:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "09:90",
+          "end_time": "12:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "10:00",
+          "end_time": "11:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "10:90",
+          "end_time": "13:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "11:00",
+          "end_time": "12:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "11:90",
+          "end_time": "14:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "13:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "12:90",
+          "end_time": "15:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "13:00",
+          "end_time": "14:30",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "13:90",
+          "end_time": "16:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "14:00",
+          "end_time": "15:30",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "14:90",
+          "end_time": "17:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "16:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "15:90",
+          "end_time": "18:00",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "16:00",
+          "end_time": "17:30",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "16:90",
+          "end_time": "19:00",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "17:00",
+          "end_time": "18:30",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "17:90",
+          "end_time": "20:00",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "19:30",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "18:90",
+          "end_time": "21:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "19:00",
+          "end_time": "20:30",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "19:90",
+          "end_time": "22:00",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "20:00",
+          "end_time": "21:30",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        }
+      ]
+    },
+    {
+      "date": "2026-02-25",
+      "day_of_week": "Wednesday",
+      "slots": [
+        {
+          "start_time": "07:00",
+          "end_time": "08:30",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "07:90",
+          "end_time": "10:00",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "08:00",
+          "end_time": "09:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "08:90",
+          "end_time": "11:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "09:00",
+          "end_time": "10:30",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "09:90",
+          "end_time": "12:00",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "10:00",
+          "end_time": "11:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "10:90",
+          "end_time": "13:00",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "11:00",
+          "end_time": "12:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "11:90",
+          "end_time": "14:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "13:30",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "12:90",
+          "end_time": "15:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "13:00",
+          "end_time": "14:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "13:90",
+          "end_time": "16:00",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "14:00",
+          "end_time": "15:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "14:90",
+          "end_time": "17:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "16:30",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "15:90",
+          "end_time": "18:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "16:00",
+          "end_time": "17:30",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "16:90",
+          "end_time": "19:00",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "17:00",
+          "end_time": "18:30",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "17:90",
+          "end_time": "20:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "19:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "18:90",
+          "end_time": "21:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "19:00",
+          "end_time": "20:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "19:90",
+          "end_time": "22:00",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "20:00",
+          "end_time": "21:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        }
+      ]
+    },
+    {
+      "date": "2026-02-26",
+      "day_of_week": "Thursday",
+      "slots": [
+        {
+          "start_time": "07:00",
+          "end_time": "08:30",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "07:90",
+          "end_time": "10:00",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "08:00",
+          "end_time": "09:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "08:90",
+          "end_time": "11:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "09:00",
+          "end_time": "10:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "09:90",
+          "end_time": "12:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "10:00",
+          "end_time": "11:30",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "10:90",
+          "end_time": "13:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "11:00",
+          "end_time": "12:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "11:90",
+          "end_time": "14:00",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "13:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "12:90",
+          "end_time": "15:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "13:00",
+          "end_time": "14:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "13:90",
+          "end_time": "16:00",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "14:00",
+          "end_time": "15:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "14:90",
+          "end_time": "17:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "16:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "15:90",
+          "end_time": "18:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "16:00",
+          "end_time": "17:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "16:90",
+          "end_time": "19:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "17:00",
+          "end_time": "18:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "17:90",
+          "end_time": "20:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "19:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "18:90",
+          "end_time": "21:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "19:00",
+          "end_time": "20:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "19:90",
+          "end_time": "22:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "20:00",
+          "end_time": "21:30",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        }
+      ]
+    },
+    {
+      "date": "2026-02-27",
+      "day_of_week": "Friday",
+      "slots": [
+        {
+          "start_time": "07:00",
+          "end_time": "08:30",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "07:90",
+          "end_time": "10:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "08:00",
+          "end_time": "09:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "08:90",
+          "end_time": "11:00",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "09:00",
+          "end_time": "10:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "09:90",
+          "end_time": "12:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "10:00",
+          "end_time": "11:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "10:90",
+          "end_time": "13:00",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "11:00",
+          "end_time": "12:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "11:90",
+          "end_time": "14:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "13:30",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "12:90",
+          "end_time": "15:00",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "13:00",
+          "end_time": "14:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "13:90",
+          "end_time": "16:00",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "14:00",
+          "end_time": "15:30",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "14:90",
+          "end_time": "17:00",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "16:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "15:90",
+          "end_time": "18:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "16:00",
+          "end_time": "17:30",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "16:90",
+          "end_time": "19:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "17:00",
+          "end_time": "18:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "17:90",
+          "end_time": "20:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "19:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "18:90",
+          "end_time": "21:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "19:00",
+          "end_time": "20:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "19:90",
+          "end_time": "22:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "20:00",
+          "end_time": "21:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        }
+      ]
+    },
+    {
+      "date": "2026-02-28",
+      "day_of_week": "Saturday",
+      "slots": [
+        {
+          "start_time": "07:00",
+          "end_time": "08:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "07:90",
+          "end_time": "10:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "08:00",
+          "end_time": "09:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "08:90",
+          "end_time": "11:00",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "09:00",
+          "end_time": "10:30",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "09:90",
+          "end_time": "12:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "10:00",
+          "end_time": "11:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "10:90",
+          "end_time": "13:00",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "11:00",
+          "end_time": "12:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "11:90",
+          "end_time": "14:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "13:30",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "12:90",
+          "end_time": "15:00",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "13:00",
+          "end_time": "14:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "13:90",
+          "end_time": "16:00",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "14:00",
+          "end_time": "15:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "14:90",
+          "end_time": "17:00",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "16:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "15:90",
+          "end_time": "18:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "16:00",
+          "end_time": "17:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "16:90",
+          "end_time": "19:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "17:00",
+          "end_time": "18:30",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "17:90",
+          "end_time": "20:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "19:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "18:90",
+          "end_time": "21:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "19:00",
+          "end_time": "20:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "19:90",
+          "end_time": "22:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "20:00",
+          "end_time": "21:30",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        }
+      ]
+    },
+    {
+      "date": "2026-03-01",
+      "day_of_week": "Sunday",
+      "slots": [
+        {
+          "start_time": "07:00",
+          "end_time": "08:30",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "07:90",
+          "end_time": "10:00",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "08:00",
+          "end_time": "09:30",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "08:90",
+          "end_time": "11:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "09:00",
+          "end_time": "10:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "09:90",
+          "end_time": "12:00",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "10:00",
+          "end_time": "11:30",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "10:90",
+          "end_time": "13:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "11:00",
+          "end_time": "12:30",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "11:90",
+          "end_time": "14:00",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "13:30",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "12:90",
+          "end_time": "15:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "13:00",
+          "end_time": "14:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "13:90",
+          "end_time": "16:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "14:00",
+          "end_time": "15:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "14:90",
+          "end_time": "17:00",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "16:30",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "15:90",
+          "end_time": "18:00",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "16:00",
+          "end_time": "17:30",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "16:90",
+          "end_time": "19:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "17:00",
+          "end_time": "18:30",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "17:90",
+          "end_time": "20:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "19:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "18:90",
+          "end_time": "21:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "19:00",
+          "end_time": "20:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "19:90",
+          "end_time": "22:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "20:00",
+          "end_time": "21:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        }
+      ]
+    },
+    {
+      "date": "2026-03-02",
+      "day_of_week": "Monday",
+      "slots": [
+        {
+          "start_time": "07:00",
+          "end_time": "08:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "07:90",
+          "end_time": "10:00",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "08:00",
+          "end_time": "09:30",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "08:90",
+          "end_time": "11:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "09:00",
+          "end_time": "10:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "09:90",
+          "end_time": "12:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "10:00",
+          "end_time": "11:30",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "10:90",
+          "end_time": "13:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "11:00",
+          "end_time": "12:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "11:90",
+          "end_time": "14:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "13:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "12:90",
+          "end_time": "15:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "13:00",
+          "end_time": "14:30",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "13:90",
+          "end_time": "16:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "14:00",
+          "end_time": "15:30",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "14:90",
+          "end_time": "17:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "16:30",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "15:90",
+          "end_time": "18:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "16:00",
+          "end_time": "17:30",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "16:90",
+          "end_time": "19:00",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "17:00",
+          "end_time": "18:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "17:90",
+          "end_time": "20:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "19:30",
+          "duration_minutes": 90,
+          "available": false,
+          "price": null
+        },
+        {
+          "start_time": "18:90",
+          "end_time": "21:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "19:00",
+          "end_time": "20:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "19:90",
+          "end_time": "22:00",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        },
+        {
+          "start_time": "20:00",
+          "end_time": "21:30",
+          "duration_minutes": 90,
+          "available": true,
+          "price": 5.0
+        }
+      ]
+    }
+  ]
+}

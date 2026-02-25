@@ -1,5 +1,5 @@
 # Local dev files (pixi)
-pyproject.toml
+pixi.toml
 pixi.lock
 .pixi/
 

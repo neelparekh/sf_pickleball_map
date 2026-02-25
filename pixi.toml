@@ -1,0 +1,20 @@
+[project]
+name = "pickleball"
+version = "0.1.0"
+description = "SF Pickleball Court Map"
+channels = ["conda-forge"]
+platforms = ["osx-arm64", "osx-64", "linux-64"]
+
+[dependencies]
+python = "3.11.*"
+flask = "3.0.*"
+flask-cors = "4.0.*"
+beautifulsoup4 = "4.12.*"
+requests = "2.31.*"
+geopy = "2.4.*"
+lxml = "5.1.*"
+gunicorn = "21.2.*"
+
+[tasks]
+dev = "cd backend && flask run --host=0.0.0.0 --port=5000"
+start = "bash start.sh"

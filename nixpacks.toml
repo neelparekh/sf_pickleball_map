@@ -4,8 +4,5 @@ nixPkgs = ['python312']
 [phases.install]
 cmds = ['pip install -r backend/requirements.txt']
 
-[phases.build]
-cmds = ['echo "Build complete"']
-
 [start]
-cmd = 'cd backend && gunicorn app:app --bind 0.0.0.0:$PORT'
+cmd = 'bash start-server.sh'
