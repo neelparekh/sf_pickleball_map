@@ -1,0 +1,28 @@
+# Local dev files (pixi)
+pyproject.toml
+pixi.lock
+.pixi/
+
+# Python cache
+backend/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Test/POC files
+backend/api_discovery.py
+backend/api_discovery_results.json
+backend/api_discovery_simple.py
+backend/mock_availability.json
+backend/scraper_poc.py
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
